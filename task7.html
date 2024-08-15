@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/фермер.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+    <title>ЗЕЛЁНЫЙ КРАЙ</title>
+</head>
+
+<body>
+    
+    <div class="container">
+        <header id="header">
+            <div class="header">
+
+                <div class="logo">
+                    <img src="img/фермер.png" alt="">
+                    <h2>ЗЕЛЁНЫЙ КРАЙ</h2>
+                </div>
+                <nav class="menu">
+                    <div class="burger-menu" id="burgerMenu">
+                        &#9776;
+                    </div>
+                    <ul class="nav-links" id="navLinks">
+                        <li><a href="#company">Компания</a></li>
+                        <li><a href="#products">Продукция</a></li>
+                        <li><a href="#delivery">Доставка</a></li>
+                        <li><a href="#payment">Оплата</a></li>
+                        <li><a href="#contacts">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <button onclick="location.href='#header'" class="button">Вверх</button>
+        <!-- <button><a href="#header"><img src="img/arrow_upward_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt=""></a></button> -->
+
+        <main>
+            <div class="slider-container">
+
+                <div class="slider">
+                    <img src="img/1йслайд.jpg" alt="">
+                    <img src="img/девушка.jpg" alt="">
+                    <img src="img/сердце.jpg" alt="">
+                </div>
+
+                <button class="prev-button">&lt;</button>
+                <button class="next-button">&gt;</button>
+            </div>
+
+            <div class="slider-dots" id="sliderDots">
+
+            </div>
+
+            <section>
+                <div class="company" id="company">
+                    <h4><a href="#header">Компания"ЗЕЛЁНЫЙ КРАЙ"</a></h4>
+                    <P>Уже более 10 лет наша компания занимается доставкой качественных продуктов. <br> <br>Мы отбираем
+                        фрукты, овощи и ягоды со всего мира, чтобы каждый покупатель мог насладиться совершенным вкусом
+                        у себя дома.
+                </div>
+            </section>
+
+            <section class="products" id="products">
+                <h2><a href="#header">Продукция</a></h2>
+                <div class="products-cards">
+                    <div class="product-card">
+                        <img src="img/свекла-морковь.jpg" alt="">
+                        <h3>Корнеплоды</h3>
+                    </div>
+                    <div class="product-card">
+                        <img src="img/бананы.jpeg" alt="">
+                        <h3>Фрукты</h3>
+                    </div>
+                    <div class="product-card">
+                        <img src="img/овощи.jpg" alt="">
+                        <h3>Овощи</h3>
+                    </div>
+                    <div class="product-card">
+                        <img src="img/251928-golubika-7.jpg" alt="">
+                        <h3>Ягоды</h3>
+                    </div>
+                    <div class="product-card">
+                        <img src="img/экзотика.jpg" alt="">
+                        <h3>Экзотические фрукты <br> и овощи</h3>
+                    </div>
+                </div>
+            </section>
+
+            <section class="delivery" id="delivery">
+
+                <h2><a href="#header">Доставка</a></h2>
+                <p>Доставка по номеру телефона: <a href="tel:89123456789">89123456789</a></p>
+                <p>Наша компания осуществляет интернет-доставку:</p>
+                <p>Понедельник-Суббота с 8:00 до 20:00 <br>
+                    Воскресенье с 9:00 до 18:00</p>
+                <p>-Курьерская доставка от 200Р до 500Р<br>
+                    -Бесплатная доставка при заказе от 100Р<br>
+                    -Самовывоз возможен по адресу: ул.Ленина 74 (1этаж)
+                </p>
+
+            </section>
+
+            <section class="payment" id="payment">
+                <h2><a href="#header">Оплата</a></h2>
+                <p>Вы можете оплатить любым удобным для Вас способом:</p>
+                <p>- Безналичный расчет (любыми банковскими картами)<br>
+                    - Наличная оплата, в пункте самовывоза<br>
+                </p>
+            </section>
+
+            <section class="contacts" id="contacts">
+                <h2><a href="#header">Контакты</a></h2>
+                <p>Тел: <a href="tel:89123456789">89123456789</a></p>
+                <p>Адрес: ул.Ленина 74 (1этаж)</p>
+                <p>Эл.почта: <a href="mailton:greenterritory@mail.ru">greenterritory@mail.ru</a></p>
+            </section>
+
+
+        </main>
+
+        <footer>
+            <p>©2024 Visual Studio Code</p>
+        </footer>
+    </div>
+
+    
+    <script src="js/script.js"></script>
+</body>
+
+</html>
